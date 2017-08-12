@@ -6,6 +6,7 @@
 *
 !/**/
 !*.*
+
 # Source files
 !*.[Cc]
 !*.[Hh]
@@ -49,6 +50,7 @@
 *.uvguix.*
 *.uvoptx
 *.uvopt
+*.uvproj.*
 
 # unknown
 *. 
