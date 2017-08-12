@@ -52,9 +52,6 @@
 *.uvopt
 *.uvproj.*
 
-# unknown
-*. 
-
 # Html files
 *.html
 *.htm
