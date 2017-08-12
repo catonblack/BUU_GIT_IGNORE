@@ -1,0 +1,51 @@
+#
+# .gitignore: Ignore untracked files or directories.
+#
+
+# Ignore the file with no suffix
+*
+!/**/
+!*.*
+
+# Source files
+!*.[Cc]
+!*.[Hh]
+!*.[Ss]
+
+# Library files just try
+!*.lib
+
+# Backed files
+*.bak
+
+# Ignore output directories
+/output/
+
+# Text files
+!*.txt
+
+# Holtek project private configure files
+!*.OPT
+!*.pjt
+!*.pjtx
+*.pjw
+!*.asm
+
+# Html files
+*.html
+*.htm
+
+# Setting files
+!*.ini
+
+# Ctags file
+.tags
+.tags_sorted_by_file
+
+#ST3 workspace
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+!*.sublime-project
