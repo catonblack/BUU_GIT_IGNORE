@@ -1,0 +1,13 @@
+#
+# .gitignore: Ignore untracked files or directories.
+#
+
+# Ignore all the files except design file
+*
+!*.[Cc]
+!*.[Hh]
+
+!*.uvopt
+!*.uvproj
+!*.A51
+!*.txt
