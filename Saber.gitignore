@@ -1,0 +1,17 @@
+#
+# .gitignore: Ignore untracked files or directories.
+#
+
+# Ignore all the files except design file
+*
+!*.ai_dsn
+!*.ai_sch
+
+# For symbol files and sin files
+!*.ai_sym
+#![PART].sin
+
+# Symbol white list
+!ad8228.sin
+!LMC6041.sin
+!op1177.sin
