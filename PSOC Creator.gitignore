@@ -1,0 +1,65 @@
+#
+# .gitignore: Ignore untracked files or directories.
+#
+
+# Ignore the workspace made by former IDE
+Archive/
+
+# Ignore the Backup files
+Backup/
+
+# Creator config files
+*.cywrk.*
+!*.cywrk
+
+# Text files, ignored by default.
+# Use 'git add' to track text files explicitly.
+*.txt
+
+!*.cydsn/*
+*.cydsn/codegentemp
+# CortexM0 files
+*.cydsn/CortexM0
+*.cydsn/Export
+*.cydsn/Generated_Source
+
+# Project files
+*.cycdx
+*.cyfit
+*.rpt
+*.svd
+*.cyprj.*
+!*.cyprj
+
+# Source files
+!*.[Cc]
+!*.[Hh]
+!*.[Ss]
+
+# Library files just try
+!*.lib
+
+# Backed files
+*.bak
+
+# Html files
+*.html
+*.htm
+
+# Setting files
+!*.ini
+
+# Log files
+*.log
+
+# Ctags file
+.tags
+.tags_sorted_by_file
+
+#ST3 workspace
+# Workspace files are user-specific
+*.sublime-workspace
+
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+!*.sublime-project
